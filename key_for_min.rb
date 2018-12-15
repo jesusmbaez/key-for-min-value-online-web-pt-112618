@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
   lowest_key
 end
 
-# We need a baseline value to compare against the value we pass in via argument. Set the value to 0 in a lowest_value variable. We need to do the same for our key. Set your lowest_key to nil so it returns nill if a hash is not passed in as an argument 
+# We need a baseline value to compare against the value we pass in via argument. Set the value to 0 in a lowest_value variable. We need to do the same for our key. Set your lowest_key to nil so it returns nill if a hash is not passed in as an argument.
 
 # Iterate over the hash with collect (stores in memory). To iterate over hashes you need to pass a block. For hashes that means a key and a value within that key.  
 
