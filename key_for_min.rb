@@ -18,4 +18,7 @@ end
 
 #iterate over the hash with collect (stores in memory). To iterate over hashes you need to pass a black ofthe key and the value 
 
-# use if statement to compare. if your lowest value is equal to 0 OR your value is less than your lowest_value then lowest_value is equals to value and lowest key is key 
+# use if statement to compare. if your lowest value is equal to 0 OR your value is less than your lowest_value then lowest_value is equals value and lowest key is key 
+
+#return lowest_key
+
