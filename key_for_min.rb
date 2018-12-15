@@ -13,3 +13,9 @@ def key_for_min_value(name_hash)
   end
   lowest_key
 end
+
+#we need to start somewhere so set your value to 0 in a variable. Set your lowest key to nil so it returns nill if no hash given 
+
+#iterate over the hash with collect (stores in memory). To iterate over hashes you need to pass a black ofthe key and the value 
+
+# use if statement to compare. if your lowest value is equal to 0 OR your value is less than your lowest_value then lowest_value is equals to value and lowest key is key 
