@@ -18,7 +18,7 @@ end
 
 # Iterate over the hash with collect (stores in memory). To iterate over hashes you need to pass a block. For hashes that means a key AND a value within that key.  
 
-# Use if statement to control the folow and to to compare items within the hash. If your lowest value is equal to 0 (you set this to 0 in your variable and will what is used for the first iteration) OR value passed in is less than your lowest_value previously passed in then lowest_value is now equals value (the value passed in during iteration) and lowest key is now key (the key passed in during iteration).  
+# Use an if statement for flow control and to compare items within the hash. If your lowest value is equal to 0 (you set this to 0 in your variable and will what is used for the first iteration) OR value passed in is less than your lowest_value previously passed in then lowest_value is now equals value (the value passed in during iteration) and lowest key is now key (the key passed in during iteration).  
 
 # return lowest_key
 
